@@ -1,0 +1,282 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#fff0f6">
+<title>Operation: Mana Lo Dimpal 💗</title>
+
+<style>
+:root{
+--ink:#4d3440;--plum:#75485e;--rose:#e9a0b7;
+--blush:#f9e5eb;--cream:#fffaf7;--wine:#9b526d;
+}
+*{box-sizing:border-box}
+body{
+margin:0;min-height:100vh;padding:25px 15px;
+display:grid;place-items:center;
+font-family:"Trebuchet MS",system-ui,sans-serif;
+color:var(--ink);
+background:linear-gradient(135deg,#fff9f6,#fbeaf0 48%,#f2eaf7);
+overflow-x:hidden;position:relative;
+}
+body:before,body:after{
+content:"";position:fixed;width:330px;height:330px;
+border-radius:50%;filter:blur(12px);opacity:.52;
+pointer-events:none;z-index:0;
+animation:glowDrift 18s ease-in-out infinite alternate;
+}
+body:before{background:radial-gradient(circle,#f7cbd9,transparent 68%);top:-145px;left:-130px}
+body:after{background:radial-gradient(circle,#e4d2f2,transparent 68%);bottom:-155px;right:-125px;animation-delay:-8s}
+@keyframes glowDrift{to{transform:translate(65px,42px) scale(1.16)}}
+.floaty{position:fixed;z-index:0;pointer-events:none;color:#d889a5;opacity:.63;animation:floatRibbon 10s ease-in-out infinite}
+.f1{top:7%;left:8%;font-size:29px}
+.f2{top:17%;right:9%;font-size:35px;animation-delay:-3s}
+.f3{bottom:15%;left:9%;font-size:25px;animation-delay:-5s}
+.f4{bottom:8%;right:10%;font-size:31px;animation-delay:-2s}
+.f5{top:47%;left:3%;font-size:22px;animation-delay:-4s}
+.f6{top:65%;right:4%;font-size:28px;animation-delay:-6s}
+@keyframes floatRibbon{
+0%,100%{transform:translateY(0) rotate(-8deg)}
+50%{transform:translate(14px,-25px) rotate(10deg)}
+}
+.card{
+position:relative;z-index:1;width:min(100%,550px);
+background:rgba(255,252,249,.91);backdrop-filter:blur(16px);
+border:1px solid white;border-radius:27px;
+padding:clamp(23px,5vw,38px);text-align:center;
+box-shadow:0 25px 75px rgba(132,75,100,.13);
+}
+.card:before{content:"";position:absolute;inset:9px;border:1px solid rgba(231,177,194,.45);border-radius:20px;pointer-events:none}
+.tag{display:inline-block;padding:8px 14px;border-radius:99px;background:#f9e8ee;color:#995b73;font-size:10px;font-weight:900;letter-spacing:.13em;text-transform:uppercase}
+.emoji{font-size:53px;margin:18px 0 8px;animation:emojiFloat 3.5s ease-in-out infinite}
+@keyframes emojiFloat{50%{transform:translateY(-6px) rotate(3deg)}}
+h1{font-family:Georgia,serif;font-weight:600;letter-spacing:-.035em;font-size:clamp(30px,7vw,42px);line-height:1.08;margin:10px 0 13px;color:#75485e}
+p{font-size:15px;line-height:1.75;margin:10px 0 18px}
+.small{font-size:12px;color:#987e8a}
+.buttons{display:grid;gap:10px;margin-top:21px}
+button{border:0;border-radius:13px;padding:14px 17px;font:inherit;font-weight:800;font-size:14px;cursor:pointer;transition:.2s}
+button:hover{transform:translateY(-2px)}
+.primary{background:linear-gradient(135deg,#d77f9d,#b96e8d);color:white;box-shadow:0 9px 20px rgba(194,112,145,.22)}
+.secondary{background:#f5eaf0;color:#80566a;border:1px solid #f0dce4}
+.soft{background:#fff5f0;color:#a36d70;border:1px solid #f4e3dc}
+.hidden{display:none!important}
+.progress{height:5px;background:#f2e5e9;border-radius:20px;overflow:hidden;margin:21px 0 0}
+.bar{height:100%;width:0;background:linear-gradient(90deg,#d77f9d,#c7a3d7);transition:width .4s}
+.note{background:linear-gradient(135deg,#fff5f7,#fbf4f8);border:1px solid #f0d6df;padding:17px;border-radius:15px;margin:18px 0;text-align:left}
+.note p{margin:0}
+.tile{background:#fff8f7;border:1px solid #f2e2e4;padding:13px;border-radius:13px;margin:9px 0;text-align:left}
+.tile strong{color:#995b73}
+.pop{animation:pop .4s ease}
+@keyframes pop{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}
+.meter{height:12px;background:#f3e6eb;border-radius:20px;overflow:hidden;margin:14px 0}
+.meter>div{height:100%;width:50%;background:linear-gradient(90deg,#d77f9d,#c7a3d7);transition:width .3s}
+.footer{margin-top:18px;font-size:11px;color:#a18b94}
+</style>
+</head>
+
+<body>
+<span class="floaty f1">🎀</span>
+<span class="floaty f2">♡</span>
+<span class="floaty f3">✧</span>
+<span class="floaty f4">୨୧</span>
+<span class="floaty f5">⋆</span>
+<span class="floaty f6">♡</span>
+
+<main class="card">
+
+<section id="s1" class="screen pop">
+<span class="tag">CONFIDENTIAL SIBLING FILE #001</span>
+<div class="emoji">🥺👉👈</div>
+<h1>Oye Dimpal!</h1>
+<p>Bauni ji, aapke liye ek ultra-important website banayi gayi hai.</p>
+<p class="small">Department of Sorry • Approved by: Tera annoying bhai</p>
+<div class="buttons">
+<button class="primary" onclick="go(2)">Open the case file 🔓</button>
+<button class="secondary" onclick="toast('Madam, investigation se bhaagna mana hai 😂')">Not interested 🙄</button>
+</div>
+</section>
+
+<section id="s2" class="screen hidden">
+<span class="tag">CASE FILE: THE CHROMEBOOK INCIDENT</span>
+<div class="emoji">🕵️‍♀️</div>
+<h1>Investigation report</h1>
+<div class="tile"><strong>Victim:</strong> Dimpal aka Bauni aka Butki</div>
+<div class="tile"><strong>Accused:</strong> One overreacting idiot (me)</div>
+<div class="tile"><strong>Crime:</strong> Chromebook wali baat par chillana</div>
+<div class="tile"><strong>Verdict:</strong> Guilty. No excuses. 😭</div>
+<p>Madam judge, accused apni galti accept karta hai.</p>
+<div class="buttons"><button class="primary" onclick="go(3)">Continue investigation ➜</button></div>
+</section>
+
+<section id="s3" class="screen hidden">
+<span class="tag">THE ANGER-O-METER</span>
+<div class="emoji">🌡️</div>
+<h1>Gussa kitna hai?</h1>
+<p>Slider ko apne current gusse ke level par set karo. Bilkul honest rehna. 😂</p>
+<div class="meter"><div id="meterfill"></div></div>
+<input id="anger" aria-label="Anger level" type="range" min="0" max="100" value="50" style="width:100%;accent-color:#ed86b2" oninput="updateAnger(this.value)">
+<p id="angertext" class="small">50% — Bhai ki khair nahi 😭</p>
+<div class="buttons"><button class="primary" onclick="go(4)">Okay, next 😂</button></div>
+</section>
+
+<section id="s4" class="screen hidden">
+<span class="tag">IMPORTANT SCIENTIFIC TEST</span>
+<div class="emoji">🧠</div>
+<h1>Who is more dramatic?</h1>
+<p>Choose carefully, Bauni. Is test ka result permanent record mein jayega.</p>
+<div class="buttons">
+<button class="secondary" onclick="quiz('Tu, obviously 🙄','Obviously YOU. Case closed. 😂')">Tu, obviously 🙄</button>
+<button class="soft" onclick="quiz('Tu hi hai, bhai 😭','Correct. But at least I admitted it. 🥲')">Tu hi hai, bhai 😭</button>
+<button class="primary" onclick="quiz('Hum dono 🤝','Diplomatic answer detected. Very clever, Butki. 😌')">Hum dono 🤝</button>
+</div>
+<p id="quizreply" class="small" aria-live="polite"></p>
+<div class="buttons"><button class="primary" onclick="go(5)">Unlock secret message 🔐</button></div>
+</section>
+
+<section id="s5" class="screen hidden">
+<span class="tag">SECRET MESSAGE — TAP TO OPEN</span>
+<div class="emoji"><span onclick="reveal()">💌</span></div>
+<h1>Ek chhota sa letter</h1>
+<p>Envelope par tap karo. No cheating. 👀</p>
+<div id="letter" class="note hidden">
+<p>Dimpal, tu meri blood sister nahi hai, but mere liye real sister jaisi hi hai. Please kabhi ye mat sochna ki teri meri life mein koi value nahi hai. Mujhe farq padta hai — teri narazgi se bhi aur teri smile se bhi. Main hamesha sahi tareeke se express nahi kar pata, but tu matter karti hai. I'm genuinely sorry for shouting at you. ❤️</p>
+</div>
+<div class="buttons"><button class="primary" onclick="go(6)">One last thing ➜</button></div>
+</section>
+
+<section id="s6" class="screen hidden">
+<span class="tag">PROMISE GENERATOR</span>
+<div class="emoji">🤞</div>
+<h1>My promises to you</h1>
+<div class="tile">💗 Next time gussa aaya toh pehle calmly baat karunga.</div>
+<div class="tile">💗 Teri baat bhi sununga, bina beech mein chillaaye.</div>
+<div class="tile">💗 Tujhe lightly nahi lunga, aur apni galti accept karunga.</div>
+<p class="small">Promises sirf website par nahi — real life mein bhi follow karne hain.</p>
+<div class="buttons"><button class="primary" onclick="go(7)">Bonus level unlocked 🏆</button></div>
+</section>
+
+<section id="s7" class="screen hidden">
+<span class="tag">COMPLIMENT MACHINE 3000</span>
+<div class="emoji">🎀</div>
+<h1>Random Dimpal appreciation</h1>
+<p>Button dabao aur ek random compliment unlock karo.</p>
+<div class="note"><p id="compliment">Loading one tiny compliment…</p></div>
+<div class="buttons">
+<button class="secondary" onclick="newCompliment()">Another one ✨</button>
+<button class="primary" onclick="go(8)">Okay, final level ➜</button>
+</div>
+</section>
+
+<section id="s8" class="screen hidden">
+<span class="tag">FINAL LEVEL: YOUR CHOICE</span>
+<div class="emoji">🌷</div>
+<h1>Ab kya hukm hai, Butki?</h1>
+<p>Maaf karne ki jaldi nahi hai. Bas meri taraf se ek genuine sorry aur ek request: please ye mat sochna ki tu important nahi hai.</p>
+<p class="small">Your selected response will be shared with the person who made this page.</p>
+<div class="buttons">
+<button class="primary" onclick="finalChoice('Theek hai, maaf kiya ❤️',true)">Theek hai, maaf kiya ❤️</button>
+<button class="secondary" onclick="finalChoice('Abhi time lagega',false)">Abhi time lagega</button>
+<button class="soft" onclick="finalChoice('Fine. Chocolate bhej 😌',false)">Fine. Chocolate bhej 😌</button>
+</div>
+<p id="wait" class="small" aria-live="polite"></p>
+</section>
+
+<section id="s9" class="screen hidden">
+<span class="tag">MISSION COMPLETE</span>
+<div class="emoji">🎉💗🎉</div>
+<h1>Thank you, Bauni!</h1>
+<p>Tu special hai, aur ye baat sirf sorry bolne ke liye nahi keh raha.</p>
+<div class="note"><p><strong>Official title:</strong> World's most important Butki (and sometimes world's most dangerous when angry). 😂❤️</p></div>
+<p>— Tera annoying sa bhai</p>
+<div class="buttons"><button class="secondary" onclick="go(1)">Replay ↻</button></div>
+</section>
+
+<div class="progress"><div class="bar" id="bar"></div></div>
+<div class="footer">a little note, with love & a tiny pink bow ୨୧</div>
+</main>
+
+<script>
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyCU6ish1C2wDrLkz4YFh1WFFmP_p7WPVUighZvq8B9qUUHqGfCuqmjuYfnX6he-JeJ/exec";
+
+let userData = {
+  anger: "50%",
+  dramatic: "Not selected",
+  decision: "Pending"
+};
+
+function sendResponse() {
+  const payload = JSON.stringify(userData);
+
+  fetch(SCRIPT_URL, {
+    method: "POST",
+    mode: "no-cors",
+    keepalive: true,
+    headers: {"Content-Type":"text/plain;charset=utf-8"},
+    body: payload
+  }).catch(error => console.error("Submission error:", error));
+}
+
+function go(n){
+  document.querySelectorAll('.screen').forEach(x=>x.classList.add('hidden'));
+  const el=document.getElementById('s'+n);
+  el.classList.remove('hidden');
+  el.classList.remove('pop');
+  void el.offsetWidth;
+  el.classList.add('pop');
+  document.getElementById('bar').style.width=((n-1)/8*100)+'%';
+}
+
+function toast(msg){alert(msg)}
+
+function updateAnger(v){
+  userData.anger=v+"%";
+  document.getElementById('meterfill').style.width=v+'%';
+  let t=v<25?'25% se kam — bach gaya bhai! 😌':
+  v<50?'Thoda danger hai… 😅':
+  v<75?'Bhai ki khair nahi 😭':
+  'MAXIMUM DANGER. Run? No, apologise. 🏃‍♂️';
+  document.getElementById('angertext').textContent=v+'% — '+t;
+}
+
+function quiz(choice,msg){
+  userData.dramatic=choice;
+  document.getElementById('quizreply').textContent=msg;
+}
+
+function reveal(){
+  document.getElementById('letter').classList.remove('hidden');
+}
+
+const compliments=[
+'Tu kabhi-kabhi full drama karti hai, but tere bina school ke moments boring ho jaate. 😂',
+'Teri apni ek alag hi vibe hai, Dimpal. Don’t ever think you don’t matter. 💗',
+'Gussa tera fast hai, par teri smile bhi kaafi priceless hai. 🌷',
+'Tu annoying ho sakti hai… but main bhi koi kam nahi. Perfect sibling-level chaos. 🤝',
+'Thanks for being you, Bauni. Teri friendship/sisterhood genuinely special hai. ❤️'
+];
+
+function newCompliment(){
+  const item=compliments[Math.floor(Math.random()*compliments.length)];
+  document.getElementById('compliment').textContent=item;
+}
+
+function finalChoice(choice,proceed){
+  userData.decision=choice;
+  sendResponse();
+
+  if(proceed){
+    go(9);
+  }else if(choice.includes('Chocolate')){
+    toast('Ek virtual chocolate for you 🍫 (Bhai ko pata chal gaya hai!)');
+    document.getElementById('wait').textContent='Your choice has been submitted. ❤️';
+  }else{
+    document.getElementById('wait').textContent='Koi baat nahi. Main samajh sakta hoon. Jab tera mann ho tab baat kar lena. ❤️';
+  }
+}
+
+newCompliment();
+</script>
+</body>
+</html>
